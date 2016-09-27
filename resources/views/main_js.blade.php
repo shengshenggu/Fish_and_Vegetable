@@ -107,7 +107,7 @@ function switch_change() {
  */
 function crontab(status = '') {
     clearInterval(clock);
-    if (status == 'open') {
+    if (status == 'open' && period != 0) {
         clock = setInterval(function(){
             window.alert('該餵魚囉~')
         }, period);
