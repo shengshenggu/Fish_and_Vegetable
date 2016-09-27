@@ -17,9 +17,9 @@
     <p id="other"></p>
     <p id="now"></p>
 
-    <p id="tmp" class="w3-xxlarge w3-margin-top w3-text-theme">溫度: {{ $user->environment->tmp }}</p>
-    <p id="ph" class="w3-xxlarge w3-margin-top w3-text-theme">PH: {{ $user->environment->ph }}</p>
-    <p id="period" class="w3-xxlarge w3-margin-top w3-text-theme">提醒時間: {{ $user->period }}</p>
+    <p id="tmp" class="w3-xxlarge w3-margin-top w3-text-theme">溫度: {{ $user->environment->tmp or 'null' }}</p>
+    <p id="ph" class="w3-xxlarge w3-margin-top w3-text-theme">PH: {{ $user->environment->ph or 'null' }}</p>
+    <p id="period" class="w3-xxlarge w3-margin-top w3-text-theme">提醒時間: {{ $user->period or '0'}}</p>
 </div>
 
 @include('main_js')
