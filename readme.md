@@ -14,8 +14,9 @@
             - DB_PASSWORD=資料庫密碼
 
         2. 在專案的資料夾下開啟終端機, 執行以下指令:
-            $ php artisan migrate
-           就會自動在資料庫新增相關資料表 (可再問我)
+            $ php artisan migrate:refresh
+            $ php artisan db:seed
+           就會自動在資料庫新增相關資料表與資料 (可再問我)
 
         3. 之後從瀏覽器開啟該專案的public/即可看到首頁
 
