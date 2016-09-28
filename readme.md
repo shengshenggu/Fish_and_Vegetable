@@ -4,6 +4,10 @@
 
     使用前須知:
         
+        0. 如果是在unix系統 or RaspberryPi底下clone的, 須先執行以下指令：
+            $ chmod -Rf 777 storage  bootstrap/cached
+           以防止網站無法正常瀏覽
+
         1. 先在.env檔設定好DB設置，主要是設定以下三個:
             - DB_DATABASE=資料庫名稱
             - DB_USERNAME=資料庫使用者名稱
