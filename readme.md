@@ -33,14 +33,20 @@
             + app/
                 - User.php              負責使用者的資料
                 - Environment.php       負責PI所記錄的溫度與PH的資料
+                - Plant.php             負責植物資訊
 
         View
             - public/css/switch.css     製作開關按鈕的CSS
             + resources/views/
-                - layouts/main.blade.php    製作頁面的基本樣板
-                - home.blade.php            首頁, 顯示開關與目前溫度與PH值
+                + layouts/
+                    - main.blade.php    製作後端頁面的基本樣板 (可再自改)
+                    - plant.blade.php   製作前端頁面的基本樣板
+                - dashboard.blade.php       顯示開關與目前溫度與PH值的頁面
                 - set.blade.php             可以設定溫度與PH上下限的頁面
                 - main_js.blade.php         製作Ajax、鬧鐘提醒、顯示訊息的JS
+                + plant/
+                    - home.blade.php    首頁
+                    - library.blade.php 顯示每個植物的資訊
 
         Controller
             - app/Http/Controllers/HomeController.php   負責處理View與Model間的資料，以及接收與回傳Ajax的部分
