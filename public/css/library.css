@@ -1,0 +1,161 @@
+ #main{
+      background:url('../header/plant.jpg');
+      width: 100%;
+      margin: auto; 
+    }
+    
+  .btn-top {
+    margin-top: 120px;
+    float: right;
+    margin-right: 3.9%;
+  }
+  a.link-top {
+    height: 32px;
+    background: url('../index/top.png') no-repeat 100% 50%;
+    background-size: 32px;
+    font-size: 1.8rem;
+    line-height: 32px;
+    text-align: right;
+    padding-right: 46px;
+    display: inline-block;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    background: #f2dede;
+    font-size: 1.8rem;
+    line-height: 2.0;
+    -webkit-text-size-adjust: 100%;
+    /* -webkit-font-smoothing: antialiased; */
+    color: #324365;
+    overflow-y: scroll;
+    position: relative;
+    z-index: 0;
+  }
+  /*搜尋欄*/
+    .search{
+        background: #a3bcd2;
+        height: 75px;
+        padding: 15px;
+    }
+
+    .dropdown.dropdown-lg .dropdown-menu {
+        margin-top: -1px;
+        padding: 6px 20px;
+    }
+    .input-group-btn .btn-group {
+        display: flex !important;
+    }
+    .btn-group .btn {
+        border-radius: 0;
+        margin-left: -1px;
+    }
+    .btn-group .btn:last-child {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    .btn-group .form-horizontal .btn[type="submit"] {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .form-horizontal .form-group {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .form-group .form-control:last-child {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    @media screen and (min-width: 768px) {
+        #adv-search {
+            width: 500px;
+            margin: 0 auto;
+        }
+        .dropdown.dropdown-lg {
+            position: static !important;
+        }
+        .dropdown.dropdown-lg .dropdown-menu {
+            min-width: 500px;
+            }
+    }
+
+    /*植物顯示欄*/
+
+    .splt-itm {
+        max-height: 200px;
+    }
+    .splt-itm {
+        position: relative;
+        background-color: #fcf8e3;
+        width: 47%;
+        margin: 0 1% 1% 0;
+        padding: 1%;
+        float: left;
+    }
+
+    /*植物圖片*/
+    .splt-itm a figure {
+        overflow: hidden;
+        width: 140px;
+        height: 170px;
+        /* background-color: #bbbbbb; */
+        background-image: url("../images/myflowerpower_default_picture.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    .splt-itm a figure {
+        padding: 0;
+        margin: 0;
+        float: left;
+        margin: 0 20px 0 0;
+    }
+    .splt-itm a figure img {
+        min-width: 140px;
+        min-height: 170px;
+        height: 170px;
+        max-width: inherit;
+    }
+
+    img {
+        width: auto\9;
+        height: auto;
+        vertical-align: middle;
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+    }
+
+    /*植物欄中標題*/
+    a {
+        color: #53b9b6;
+        text-decoration: none;
+        outline: none;
+    }
+    .splt-itm a h4 {
+        text-align: left;
+    }
+    .splt-itm a h4 {
+        margin: 0;
+        padding: 0;
+        color: #2c5655;
+        font-size: 22px;
+        line-height: 28px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        display: block;
+        -webkit-margin-before: 1.33em;
+        -webkit-margin-after: 1.33em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+    }
+
+    /*Modal*/
+    .myModal {
+        top: 200;
+    }
+/*# sourceMappingURL=library.css.map */
