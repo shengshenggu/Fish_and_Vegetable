@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home', ['user' => Auth::user()]);
+        return view('dashboard', ['user' => Auth::user()]);
     }
 
     public function setView()

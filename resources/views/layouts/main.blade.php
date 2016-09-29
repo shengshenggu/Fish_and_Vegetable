@@ -39,6 +39,7 @@
       <a href="{{ url('/login') }}">登入</a>
       <a href="{{ url('/register') }}">註冊</a>
       @else
+      <a href="{{ url('/dashboard') }}">目前環境</a>
       <a href="{{ url('/setEnvironment') }}">環境設定</a>
       <a href="{{ url('/logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">登出</a>
       <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
