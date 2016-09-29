@@ -49,9 +49,9 @@
                     + layouts/
                         - main.blade.php    製作後端頁面的基本樣板 (可再自改)
                         - plant.blade.php   製作前端頁面的基本樣板
-                    - dashboard.blade.php       顯示開關與目前溫度與PH值的頁面
-                    - set.blade.php             可以設定溫度與PH上下限的頁面
-                    - main_js.blade.php         製作Ajax、鬧鐘提醒、顯示訊息的JS
+                            - dashboard.blade.php       顯示開關與目前溫度與PH值的頁面
+                            - set.blade.php             可以設定溫度與PH上下限的頁面
+                            - main_js.blade.php         製作Ajax、鬧鐘提醒、顯示訊息的JS
                     + plant/
                         - home.blade.php    首頁
                         - library.blade.php 顯示每個植物的資訊
