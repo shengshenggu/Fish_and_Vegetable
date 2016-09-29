@@ -42,7 +42,7 @@
             + resources/
                 +views/
                     + assets/
-                        - css/
+                        + css/
                             - plant.css     前端樣板的css
                             - home.css      前端首頁的css
                             - library.css   前端library的css
